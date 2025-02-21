@@ -27,3 +27,4 @@ go.work.sum
 # Custom
 .build/
 *.pdb
+*.rdi
