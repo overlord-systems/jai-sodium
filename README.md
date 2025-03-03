@@ -4,6 +4,8 @@ Jai bindings for libsodium: <https://github.com/jedisct1/libsodium>
 
 ## Installation
 
+You will need to have `libsodium.dll` next to your executable. See MacOs/Linux section below for details on those.
+
 We include libs for Windows built with vc143, so you will need to have a vc143-compiled dll
 next to your executable. You can find pre-built windows binaries and compilation instructions for other
 platforms [here](https://libsodium.gitbook.io/doc/installation).
@@ -11,7 +13,9 @@ platforms [here](https://libsodium.gitbook.io/doc/installation).
 The current bindings and included C headers are for libsodium version `1.0.20`. If you don't plan to run `generate.jai`, feel
 free to remove the `include` directory, or to replace it for a specific version of libsodium.
 
-PRs are welcome for MacOS/Linux to add their libs to our `bin` folder.
+### MacOS and Linux
+
+We haven't generated bindings (by updating and running `generate.jai`) nor included the required libs for MacOS and Linux. PRs are welcome to add their bindings and their libs to our `bin` folder.
 
 ## Naming
 
