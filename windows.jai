@@ -1,7 +1,7 @@
 //
 // This file was auto-generated using the following command:
 //
-// jai modules/Sodium/generate.jai
+// jai generate.jai
 //
 
 
@@ -620,6 +620,7 @@ aead_aes256gcm_messagebytes_max :: () -> u64 #foreign libsodium "crypto_aead_aes
 
 aead_aes256gcm_state_ :: struct {
     opaque: [512] u8;
+    #place opaque; aead_aes256gcm_state__alignment: u8 #align 16;
 }
 
 aead_aes256gcm_state :: aead_aes256gcm_state_;
@@ -978,6 +979,7 @@ core_salsa208 :: (out: *u8, in: *u8, k: *u8, c: *u8) -> s32 #foreign libsodium "
 
 generichash_blake2b_state :: struct {
     opaque: [384] u8;
+    #place opaque; generichash_blake2b_state_alignment: u8 #align 64;
 }
 
 generichash_blake2b_bytes_min :: () -> u64 #foreign libsodium "crypto_generichash_blake2b_bytes_min";
@@ -1144,6 +1146,7 @@ kx_server_session_keys :: (rx: *[32] u8, tx: *[32] u8, server_pk: *[32] u8, serv
 
 onetimeauth_poly1305_state :: struct {
     opaque: [256] u8;
+    #place opaque; onetimeauth_poly1305_state_alignment: u8 #align 16;
 }
 
 onetimeauth_poly1305_statebytes :: () -> u64 #foreign libsodium "crypto_onetimeauth_poly1305_statebytes";
