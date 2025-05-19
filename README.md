@@ -10,7 +10,7 @@ MacOs/Linux: See the 'MacOS and Linux' section below.
 
 We include libs for Windows built with vc143, so you will need to have a vc143-compiled dll next to your executable. You can find pre-built windows binaries and compilation instructions for other platforms [here](https://libsodium.gitbook.io/doc/installation).
 
-The current bindings and included C headers are for libsodium version `1.0.20`. If you don't plan to run `generate.jai`, feel free to remove the `include` directory, or to replace it for a specific version of libsodium.
+The current bindings and included C headers are for libsodium version `1.0.20`. If you don't plan to run `generate.jai`, you can delete `generate.jai` and the `include` directory.
 
 ### MacOS and Linux
 
