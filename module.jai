@@ -1,4 +1,11 @@
-#load "windows.jai";
+#if OS == .WINDOWS {
+    advapi :: #library,system,link_always "advapi32";
+    #load "bindings/windows/windows.jai";
+} else #if OS == .LINUX {
+    #load "bindings/linux/linux.jai";
+} else {
+    #assert false "Sodium bindings don't support this OS, yet.";
+}
 
 Sodium_Init_State :: enum s8 {
     SUCCESS :: 0;

@@ -2026,6 +2026,8 @@ stream_salsa208_keygen :: (k: *[32] u8) -> void #foreign libsodium "crypto_strea
 
 #scope_file
 
-
-libsodium :: #library,no_dll "bin/libsodium";
-
+#if CPU == .X64 {
+    libsodium :: #library,no_dll "x64/libsodium";
+} else #if CPU == .ARM64 {
+    libsodium :: #library,no_dll "arm64/libsodium";
+}

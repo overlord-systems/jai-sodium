@@ -29,7 +29,7 @@ DECLARATIONS_TO_OMIT :: string.[
 ];
 
 generate_bindings :: () -> bool {
-    
+
     output_filename: string;
     opts: Generate_Bindings_Options;
 
@@ -37,23 +37,28 @@ generate_bindings :: () -> bool {
         using opts;
 
         #if OS == .WINDOWS {
-            strip_flags = 0;
-            output_filename = "windows.jai";
-            
-            // Dll provided by user not in bin, so use our own footer not generated library declaration
+
+            output_filename = "bindings/windows/windows.jai";
+
             footer = FOOTER_WIN;
             generate_library_declarations = false;
-        } /*else #if OS == .LINUX {
-            output_filename = "linux/linux.jai";
-            strip_flags = .INLINED_FUNCTIONS; // Inlined constructor doesn't exist in the library
-        } else #if OS == .MACOS {
+            array_add(*libpaths, "bindings/windows");
+
+        } else #if OS == .LINUX {
+
+            output_filename = "bindings/linux/linux.jai";
+
+            footer = FOOTER_LINUX;
+            generate_library_declarations = false;
+            array_add(*libpaths, "bindings/linux");
+
+        } /*else #if OS == .MACOS {
             output_filename = "macos/macos.jai";
             strip_flags = .INLINED_FUNCTIONS; // Inlined constructor doesn't exist in the library
         }*/ else {
             assert(false, "this OS is currently unsupported. You might be able to add support for it though!");
         }
 
-        array_add(*libpaths, "bin");
         array_add(*libnames, "libsodium");
         array_add(*include_paths, "include");
         array_add(*source_files, "include/sodium.h");
@@ -88,7 +93,13 @@ sodium_visitor :: (decl: *Declaration, parent_decl: *Declaration) -> Declaration
 #import "File";
 
 FOOTER_WIN :: #string END
+#if CPU == .X64 {
+    libsodium :: #library,no_dll "x64/libsodium";
+} else #if CPU == .ARM64 {
+    libsodium :: #library,no_dll "arm64/libsodium";
+}
+END
 
-libsodium :: #library,no_dll "bin/libsodium";
-
+FOOTER_LINUX :: #string END
+libsodium :: #library,no_dll "libsodium";
 END
