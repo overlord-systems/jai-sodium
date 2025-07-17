@@ -42,7 +42,13 @@ generate_bindings :: () -> bool {
 
             footer = FOOTER_WIN;
             generate_library_declarations = false;
-            array_add(*libpaths, "bindings/windows");
+
+            #if CPU == .X64
+                array_add(*library_search_paths, "bindings/windows/x64");
+            else #if CPU == .ARM64
+                array_add(*library_search_paths, "bindings/windows/arm64");
+            else
+                #assert false "only x64 and ARM64 are supported now for windows. You might be able to add support for your CPU though.";
 
         } else #if OS == .LINUX {
 
@@ -50,7 +56,7 @@ generate_bindings :: () -> bool {
 
             footer = FOOTER_LINUX;
             generate_library_declarations = false;
-            array_add(*libpaths, "bindings/linux");
+            array_add(*library_search_paths, "bindings/linux");
 
         } /*else #if OS == .MACOS {
             output_filename = "macos/macos.jai";
@@ -59,7 +65,7 @@ generate_bindings :: () -> bool {
             assert(false, "this OS is currently unsupported. You might be able to add support for it though!");
         }
 
-        array_add(*libnames, "libsodium");
+        array_add(*libraries, .{filename = "libsodium"});
         array_add(*include_paths, "include");
         array_add(*source_files, "include/sodium.h");
 
