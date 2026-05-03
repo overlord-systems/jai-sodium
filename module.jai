@@ -16,18 +16,18 @@ Sodium_Init_State :: enum s8 {
 }
 
 Pwhash_Opslimit :: enum u64 {
-    MIN :: crypto_pwhash_OPSLIMIT_MIN;
-    INTERACTIVE :: crypto_pwhash_OPSLIMIT_INTERACTIVE;
-    MODERATE :: crypto_pwhash_OPSLIMIT_MODERATE;
-    SENSITIVE :: crypto_pwhash_OPSLIMIT_SENSITIVE;
-    MAX :: crypto_pwhash_OPSLIMIT_MAX;
+    MIN :: pwhash_OPSLIMIT_MIN;
+    INTERACTIVE :: pwhash_OPSLIMIT_INTERACTIVE;
+    MODERATE :: pwhash_OPSLIMIT_MODERATE;
+    SENSITIVE :: pwhash_OPSLIMIT_SENSITIVE;
+    MAX :: pwhash_OPSLIMIT_MAX;
 }
 
 Pwhash_Memlimit :: enum u64 {
-    MIN :: crypto_pwhash_MEMLIMIT_MIN;
-    INTERACTIVE :: crypto_pwhash_MEMLIMIT_INTERACTIVE;
-    MODERATE :: crypto_pwhash_MEMLIMIT_MODERATE;
-    SENSITIVE :: crypto_pwhash_MEMLIMIT_SENSITIVE;
+    MIN :: pwhash_MEMLIMIT_MIN;
+    INTERACTIVE :: pwhash_MEMLIMIT_INTERACTIVE;
+    MODERATE :: pwhash_MEMLIMIT_MODERATE;
+    SENSITIVE :: pwhash_MEMLIMIT_SENSITIVE;
 }
 
 init_sodium :: () -> (success: bool) #expand {
