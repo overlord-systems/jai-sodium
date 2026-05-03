@@ -4,9 +4,7 @@ Jai bindings for [libsodium](https://github.com/jedisct1/libsodium) `v1.0.20`.
 
 ## Installation
 
-Windows/Linux: We link statically, simply import and run.
-
-MacOS: We don't have binaries for Mac yet. Feel free to submit a PR!
+Windows/MacOS/Linux: We link statically, simply import and run.
 
 The current bindings and included C headers are for libsodium version `1.0.20`. If you don't plan to run `generate.jai`, you can delete `generate.jai` and the `include` directory.
 
