@@ -28,3 +28,4 @@ go.work.sum
 .build/
 *.pdb
 *.rdi
+.DS_Store

@@ -58,10 +58,15 @@ generate_bindings :: () -> bool {
             generate_library_declarations = false;
             array_add(*library_search_paths, "bindings/linux");
 
-        } /*else #if OS == .MACOS {
-            output_filename = "macos/macos.jai";
-            strip_flags = .INLINED_FUNCTIONS; // Inlined constructor doesn't exist in the library
-        }*/ else {
+        } else #if OS == .MACOS {
+
+            output_filename = "bindings/macos/macos.jai";
+
+            footer = FOOTER_MACOS;
+            generate_library_declarations = false;
+            array_add(*library_search_paths, "bindings/macos/arm64");
+
+        } else {
             assert(false, "this OS is currently unsupported. You might be able to add support for it though!");
         }
 
@@ -108,4 +113,8 @@ END
 
 FOOTER_LINUX :: #string END
 libsodium :: #library,no_dll "libsodium";
+END
+
+FOOTER_MACOS :: #string END
+libsodium :: #library,no_dll "arm64/libsodium";
 END
