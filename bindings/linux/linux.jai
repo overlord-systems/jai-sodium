@@ -11,456 +11,456 @@ SODIUM_VERSION_STRING :: "1.0.20";
 SODIUM_LIBRARY_VERSION_MAJOR :: 26;
 SODIUM_LIBRARY_VERSION_MINOR :: 2;
 
-crypto_aead_aegis128l_KEYBYTES :: 16;
+aead_aegis128l_KEYBYTES :: 16;
 
-crypto_aead_aegis128l_NSECBYTES :: 0;
+aead_aegis128l_NSECBYTES :: 0;
 
-crypto_aead_aegis128l_NPUBBYTES :: 16;
+aead_aegis128l_NPUBBYTES :: 16;
 
-crypto_aead_aegis128l_ABYTES :: 32;
+aead_aegis128l_ABYTES :: 32;
 
-crypto_aead_aegis256_KEYBYTES :: 32;
+aead_aegis256_KEYBYTES :: 32;
 
-crypto_aead_aegis256_NSECBYTES :: 0;
+aead_aegis256_NSECBYTES :: 0;
 
-crypto_aead_aegis256_NPUBBYTES :: 32;
+aead_aegis256_NPUBBYTES :: 32;
 
-crypto_aead_aegis256_ABYTES :: 32;
+aead_aegis256_ABYTES :: 32;
 
-crypto_aead_aes256gcm_KEYBYTES :: 32;
+aead_aes256gcm_KEYBYTES :: 32;
 
-crypto_aead_aes256gcm_NSECBYTES :: 0;
+aead_aes256gcm_NSECBYTES :: 0;
 
-crypto_aead_aes256gcm_NPUBBYTES :: 12;
+aead_aes256gcm_NPUBBYTES :: 12;
 
-crypto_aead_aes256gcm_ABYTES :: 16;
+aead_aes256gcm_ABYTES :: 16;
 
-crypto_aead_chacha20poly1305_ietf_KEYBYTES :: 32;
+aead_chacha20poly1305_ietf_KEYBYTES :: 32;
 
-crypto_aead_chacha20poly1305_ietf_NSECBYTES :: 0;
+aead_chacha20poly1305_ietf_NSECBYTES :: 0;
 
-crypto_aead_chacha20poly1305_ietf_NPUBBYTES :: 12;
+aead_chacha20poly1305_ietf_NPUBBYTES :: 12;
 
-crypto_aead_chacha20poly1305_ietf_ABYTES :: 16;
+aead_chacha20poly1305_ietf_ABYTES :: 16;
 
-crypto_aead_chacha20poly1305_KEYBYTES :: 32;
+aead_chacha20poly1305_KEYBYTES :: 32;
 
-crypto_aead_chacha20poly1305_NSECBYTES :: 0;
+aead_chacha20poly1305_NSECBYTES :: 0;
 
-crypto_aead_chacha20poly1305_NPUBBYTES :: 8;
+aead_chacha20poly1305_NPUBBYTES :: 8;
 
-crypto_aead_chacha20poly1305_ABYTES :: 16;
+aead_chacha20poly1305_ABYTES :: 16;
 
-crypto_aead_chacha20poly1305_IETF_KEYBYTES :: crypto_aead_chacha20poly1305_ietf_KEYBYTES;
-crypto_aead_chacha20poly1305_IETF_NSECBYTES :: crypto_aead_chacha20poly1305_ietf_NSECBYTES;
-crypto_aead_chacha20poly1305_IETF_NPUBBYTES :: crypto_aead_chacha20poly1305_ietf_NPUBBYTES;
-crypto_aead_chacha20poly1305_IETF_ABYTES :: crypto_aead_chacha20poly1305_ietf_ABYTES;
+aead_chacha20poly1305_IETF_KEYBYTES :: aead_chacha20poly1305_ietf_KEYBYTES;
+aead_chacha20poly1305_IETF_NSECBYTES :: aead_chacha20poly1305_ietf_NSECBYTES;
+aead_chacha20poly1305_IETF_NPUBBYTES :: aead_chacha20poly1305_ietf_NPUBBYTES;
+aead_chacha20poly1305_IETF_ABYTES :: aead_chacha20poly1305_ietf_ABYTES;
 
-crypto_aead_xchacha20poly1305_ietf_KEYBYTES :: 32;
+aead_xchacha20poly1305_ietf_KEYBYTES :: 32;
 
-crypto_aead_xchacha20poly1305_ietf_NSECBYTES :: 0;
+aead_xchacha20poly1305_ietf_NSECBYTES :: 0;
 
-crypto_aead_xchacha20poly1305_ietf_NPUBBYTES :: 24;
+aead_xchacha20poly1305_ietf_NPUBBYTES :: 24;
 
-crypto_aead_xchacha20poly1305_ietf_ABYTES :: 16;
+aead_xchacha20poly1305_ietf_ABYTES :: 16;
 
-crypto_aead_xchacha20poly1305_IETF_KEYBYTES :: crypto_aead_xchacha20poly1305_ietf_KEYBYTES;
-crypto_aead_xchacha20poly1305_IETF_NSECBYTES :: crypto_aead_xchacha20poly1305_ietf_NSECBYTES;
-crypto_aead_xchacha20poly1305_IETF_NPUBBYTES :: crypto_aead_xchacha20poly1305_ietf_NPUBBYTES;
-crypto_aead_xchacha20poly1305_IETF_ABYTES :: crypto_aead_xchacha20poly1305_ietf_ABYTES;
+aead_xchacha20poly1305_IETF_KEYBYTES :: aead_xchacha20poly1305_ietf_KEYBYTES;
+aead_xchacha20poly1305_IETF_NSECBYTES :: aead_xchacha20poly1305_ietf_NSECBYTES;
+aead_xchacha20poly1305_IETF_NPUBBYTES :: aead_xchacha20poly1305_ietf_NPUBBYTES;
+aead_xchacha20poly1305_IETF_ABYTES :: aead_xchacha20poly1305_ietf_ABYTES;
 
-crypto_hash_sha512_BYTES :: 64;
+hash_sha512_BYTES :: 64;
 
-crypto_auth_hmacsha512_BYTES :: 64;
+auth_hmacsha512_BYTES :: 64;
 
-crypto_auth_hmacsha512_KEYBYTES :: 32;
+auth_hmacsha512_KEYBYTES :: 32;
 
-crypto_auth_hmacsha512256_BYTES :: 32;
+auth_hmacsha512256_BYTES :: 32;
 
-crypto_auth_hmacsha512256_KEYBYTES :: 32;
+auth_hmacsha512256_KEYBYTES :: 32;
 
-crypto_auth_BYTES :: crypto_auth_hmacsha512256_BYTES;
+auth_BYTES :: auth_hmacsha512256_BYTES;
 
-crypto_auth_KEYBYTES :: crypto_auth_hmacsha512256_KEYBYTES;
+auth_KEYBYTES :: auth_hmacsha512256_KEYBYTES;
 
-crypto_auth_PRIMITIVE :: "hmacsha512256";
+auth_PRIMITIVE :: "hmacsha512256";
 
-crypto_hash_sha256_BYTES :: 32;
+hash_sha256_BYTES :: 32;
 
-crypto_auth_hmacsha256_BYTES :: 32;
+auth_hmacsha256_BYTES :: 32;
 
-crypto_auth_hmacsha256_KEYBYTES :: 32;
+auth_hmacsha256_KEYBYTES :: 32;
 
-crypto_stream_xsalsa20_KEYBYTES :: 32;
+stream_xsalsa20_KEYBYTES :: 32;
 
-crypto_stream_xsalsa20_NONCEBYTES :: 24;
+stream_xsalsa20_NONCEBYTES :: 24;
 
-crypto_box_curve25519xsalsa20poly1305_SEEDBYTES :: 32;
+box_curve25519xsalsa20poly1305_SEEDBYTES :: 32;
 
-crypto_box_curve25519xsalsa20poly1305_PUBLICKEYBYTES :: 32;
+box_curve25519xsalsa20poly1305_PUBLICKEYBYTES :: 32;
 
-crypto_box_curve25519xsalsa20poly1305_SECRETKEYBYTES :: 32;
+box_curve25519xsalsa20poly1305_SECRETKEYBYTES :: 32;
 
-crypto_box_curve25519xsalsa20poly1305_BEFORENMBYTES :: 32;
+box_curve25519xsalsa20poly1305_BEFORENMBYTES :: 32;
 
-crypto_box_curve25519xsalsa20poly1305_NONCEBYTES :: 24;
+box_curve25519xsalsa20poly1305_NONCEBYTES :: 24;
 
-crypto_box_curve25519xsalsa20poly1305_MACBYTES :: 16;
+box_curve25519xsalsa20poly1305_MACBYTES :: 16;
 
-crypto_box_curve25519xsalsa20poly1305_BOXZEROBYTES :: 16;
+box_curve25519xsalsa20poly1305_BOXZEROBYTES :: 16;
 
-crypto_box_curve25519xsalsa20poly1305_ZEROBYTES :: crypto_box_curve25519xsalsa20poly1305_BOXZEROBYTES + crypto_box_curve25519xsalsa20poly1305_MACBYTES;
+box_curve25519xsalsa20poly1305_ZEROBYTES :: box_curve25519xsalsa20poly1305_BOXZEROBYTES + box_curve25519xsalsa20poly1305_MACBYTES;
 
-crypto_box_SEEDBYTES :: crypto_box_curve25519xsalsa20poly1305_SEEDBYTES;
+box_SEEDBYTES :: box_curve25519xsalsa20poly1305_SEEDBYTES;
 
-crypto_box_PUBLICKEYBYTES :: crypto_box_curve25519xsalsa20poly1305_PUBLICKEYBYTES;
+box_PUBLICKEYBYTES :: box_curve25519xsalsa20poly1305_PUBLICKEYBYTES;
 
-crypto_box_SECRETKEYBYTES :: crypto_box_curve25519xsalsa20poly1305_SECRETKEYBYTES;
+box_SECRETKEYBYTES :: box_curve25519xsalsa20poly1305_SECRETKEYBYTES;
 
-crypto_box_NONCEBYTES :: crypto_box_curve25519xsalsa20poly1305_NONCEBYTES;
+box_NONCEBYTES :: box_curve25519xsalsa20poly1305_NONCEBYTES;
 
-crypto_box_MACBYTES :: crypto_box_curve25519xsalsa20poly1305_MACBYTES;
+box_MACBYTES :: box_curve25519xsalsa20poly1305_MACBYTES;
 
-crypto_box_PRIMITIVE :: "curve25519xsalsa20poly1305";
+box_PRIMITIVE :: "curve25519xsalsa20poly1305";
 
-crypto_box_BEFORENMBYTES :: crypto_box_curve25519xsalsa20poly1305_BEFORENMBYTES;
+box_BEFORENMBYTES :: box_curve25519xsalsa20poly1305_BEFORENMBYTES;
 
-crypto_box_SEALBYTES :: crypto_box_PUBLICKEYBYTES + crypto_box_MACBYTES;
+box_SEALBYTES :: box_PUBLICKEYBYTES + box_MACBYTES;
 
-crypto_box_ZEROBYTES :: crypto_box_curve25519xsalsa20poly1305_ZEROBYTES;
+box_ZEROBYTES :: box_curve25519xsalsa20poly1305_ZEROBYTES;
 
-crypto_box_BOXZEROBYTES :: crypto_box_curve25519xsalsa20poly1305_BOXZEROBYTES;
+box_BOXZEROBYTES :: box_curve25519xsalsa20poly1305_BOXZEROBYTES;
 
-crypto_core_hchacha20_OUTPUTBYTES :: 32;
+core_hchacha20_OUTPUTBYTES :: 32;
 
-crypto_core_hchacha20_INPUTBYTES :: 16;
+core_hchacha20_INPUTBYTES :: 16;
 
-crypto_core_hchacha20_KEYBYTES :: 32;
+core_hchacha20_KEYBYTES :: 32;
 
-crypto_core_hchacha20_CONSTBYTES :: 16;
+core_hchacha20_CONSTBYTES :: 16;
 
-crypto_core_hsalsa20_OUTPUTBYTES :: 32;
+core_hsalsa20_OUTPUTBYTES :: 32;
 
-crypto_core_hsalsa20_INPUTBYTES :: 16;
+core_hsalsa20_INPUTBYTES :: 16;
 
-crypto_core_hsalsa20_KEYBYTES :: 32;
+core_hsalsa20_KEYBYTES :: 32;
 
-crypto_core_hsalsa20_CONSTBYTES :: 16;
+core_hsalsa20_CONSTBYTES :: 16;
 
-crypto_core_salsa20_OUTPUTBYTES :: 64;
+core_salsa20_OUTPUTBYTES :: 64;
 
-crypto_core_salsa20_INPUTBYTES :: 16;
+core_salsa20_INPUTBYTES :: 16;
 
-crypto_core_salsa20_KEYBYTES :: 32;
+core_salsa20_KEYBYTES :: 32;
 
-crypto_core_salsa20_CONSTBYTES :: 16;
+core_salsa20_CONSTBYTES :: 16;
 
-crypto_core_salsa2012_OUTPUTBYTES :: 64;
+core_salsa2012_OUTPUTBYTES :: 64;
 
-crypto_core_salsa2012_INPUTBYTES :: 16;
+core_salsa2012_INPUTBYTES :: 16;
 
-crypto_core_salsa2012_KEYBYTES :: 32;
+core_salsa2012_KEYBYTES :: 32;
 
-crypto_core_salsa2012_CONSTBYTES :: 16;
+core_salsa2012_CONSTBYTES :: 16;
 
-crypto_core_salsa208_OUTPUTBYTES :: 64;
+core_salsa208_OUTPUTBYTES :: 64;
 
-crypto_core_salsa208_INPUTBYTES :: 16;
+core_salsa208_INPUTBYTES :: 16;
 
-crypto_core_salsa208_KEYBYTES :: 32;
+core_salsa208_KEYBYTES :: 32;
 
-crypto_core_salsa208_CONSTBYTES :: 16;
+core_salsa208_CONSTBYTES :: 16;
 
-crypto_generichash_blake2b_BYTES_MIN :: 16;
+generichash_blake2b_BYTES_MIN :: 16;
 
-crypto_generichash_blake2b_BYTES_MAX :: 64;
+generichash_blake2b_BYTES_MAX :: 64;
 
-crypto_generichash_blake2b_BYTES :: 32;
+generichash_blake2b_BYTES :: 32;
 
-crypto_generichash_blake2b_KEYBYTES_MIN :: 16;
+generichash_blake2b_KEYBYTES_MIN :: 16;
 
-crypto_generichash_blake2b_KEYBYTES_MAX :: 64;
+generichash_blake2b_KEYBYTES_MAX :: 64;
 
-crypto_generichash_blake2b_KEYBYTES :: 32;
+generichash_blake2b_KEYBYTES :: 32;
 
-crypto_generichash_blake2b_SALTBYTES :: 16;
+generichash_blake2b_SALTBYTES :: 16;
 
-crypto_generichash_blake2b_PERSONALBYTES :: 16;
+generichash_blake2b_PERSONALBYTES :: 16;
 
-crypto_generichash_BYTES_MIN :: crypto_generichash_blake2b_BYTES_MIN;
+generichash_BYTES_MIN :: generichash_blake2b_BYTES_MIN;
 
-crypto_generichash_BYTES_MAX :: crypto_generichash_blake2b_BYTES_MAX;
+generichash_BYTES_MAX :: generichash_blake2b_BYTES_MAX;
 
-crypto_generichash_BYTES :: crypto_generichash_blake2b_BYTES;
+generichash_BYTES :: generichash_blake2b_BYTES;
 
-crypto_generichash_KEYBYTES_MIN :: crypto_generichash_blake2b_KEYBYTES_MIN;
+generichash_KEYBYTES_MIN :: generichash_blake2b_KEYBYTES_MIN;
 
-crypto_generichash_KEYBYTES_MAX :: crypto_generichash_blake2b_KEYBYTES_MAX;
+generichash_KEYBYTES_MAX :: generichash_blake2b_KEYBYTES_MAX;
 
-crypto_generichash_KEYBYTES :: crypto_generichash_blake2b_KEYBYTES;
+generichash_KEYBYTES :: generichash_blake2b_KEYBYTES;
 
-crypto_generichash_PRIMITIVE :: "blake2b";
+generichash_PRIMITIVE :: "blake2b";
 
-crypto_hash_BYTES :: crypto_hash_sha512_BYTES;
+hash_BYTES :: hash_sha512_BYTES;
 
-crypto_hash_PRIMITIVE :: "sha512";
+hash_PRIMITIVE :: "sha512";
 
-crypto_kdf_blake2b_BYTES_MIN :: 16;
+kdf_blake2b_BYTES_MIN :: 16;
 
-crypto_kdf_blake2b_BYTES_MAX :: 64;
+kdf_blake2b_BYTES_MAX :: 64;
 
-crypto_kdf_blake2b_CONTEXTBYTES :: 8;
+kdf_blake2b_CONTEXTBYTES :: 8;
 
-crypto_kdf_blake2b_KEYBYTES :: 32;
+kdf_blake2b_KEYBYTES :: 32;
 
-crypto_kdf_BYTES_MIN :: crypto_kdf_blake2b_BYTES_MIN;
+kdf_BYTES_MIN :: kdf_blake2b_BYTES_MIN;
 
-crypto_kdf_BYTES_MAX :: crypto_kdf_blake2b_BYTES_MAX;
+kdf_BYTES_MAX :: kdf_blake2b_BYTES_MAX;
 
-crypto_kdf_CONTEXTBYTES :: crypto_kdf_blake2b_CONTEXTBYTES;
+kdf_CONTEXTBYTES :: kdf_blake2b_CONTEXTBYTES;
 
-crypto_kdf_KEYBYTES :: crypto_kdf_blake2b_KEYBYTES;
+kdf_KEYBYTES :: kdf_blake2b_KEYBYTES;
 
-crypto_kdf_PRIMITIVE :: "blake2b";
+kdf_PRIMITIVE :: "blake2b";
 
-crypto_kdf_hkdf_sha256_KEYBYTES :: crypto_auth_hmacsha256_BYTES;
+kdf_hkdf_sha256_KEYBYTES :: auth_hmacsha256_BYTES;
 
-crypto_kdf_hkdf_sha256_BYTES_MIN :: 0;
+kdf_hkdf_sha256_BYTES_MIN :: 0;
 
-crypto_kdf_hkdf_sha256_BYTES_MAX :: 0xff * crypto_auth_hmacsha256_BYTES;
+kdf_hkdf_sha256_BYTES_MAX :: 0xff * auth_hmacsha256_BYTES;
 
-crypto_kdf_hkdf_sha512_KEYBYTES :: crypto_auth_hmacsha512_BYTES;
+kdf_hkdf_sha512_KEYBYTES :: auth_hmacsha512_BYTES;
 
-crypto_kdf_hkdf_sha512_BYTES_MIN :: 0;
+kdf_hkdf_sha512_BYTES_MIN :: 0;
 
-crypto_kdf_hkdf_sha512_BYTES_MAX :: 0xff * crypto_auth_hmacsha512_BYTES;
+kdf_hkdf_sha512_BYTES_MAX :: 0xff * auth_hmacsha512_BYTES;
 
-crypto_kx_PUBLICKEYBYTES :: 32;
+kx_PUBLICKEYBYTES :: 32;
 
-crypto_kx_SECRETKEYBYTES :: 32;
+kx_SECRETKEYBYTES :: 32;
 
-crypto_kx_SEEDBYTES :: 32;
+kx_SEEDBYTES :: 32;
 
-crypto_kx_SESSIONKEYBYTES :: 32;
+kx_SESSIONKEYBYTES :: 32;
 
-crypto_kx_PRIMITIVE :: "x25519blake2b";
+kx_PRIMITIVE :: "x25519blake2b";
 
-crypto_onetimeauth_poly1305_BYTES :: 16;
+onetimeauth_poly1305_BYTES :: 16;
 
-crypto_onetimeauth_poly1305_KEYBYTES :: 32;
+onetimeauth_poly1305_KEYBYTES :: 32;
 
-crypto_onetimeauth_BYTES :: crypto_onetimeauth_poly1305_BYTES;
+onetimeauth_BYTES :: onetimeauth_poly1305_BYTES;
 
-crypto_onetimeauth_KEYBYTES :: crypto_onetimeauth_poly1305_KEYBYTES;
+onetimeauth_KEYBYTES :: onetimeauth_poly1305_KEYBYTES;
 
-crypto_onetimeauth_PRIMITIVE :: "poly1305";
+onetimeauth_PRIMITIVE :: "poly1305";
 
-crypto_pwhash_argon2i_ALG_ARGON2I13 :: 1;
+pwhash_argon2i_ALG_ARGON2I13 :: 1;
 
-crypto_pwhash_argon2i_BYTES_MIN :: 16;
+pwhash_argon2i_BYTES_MIN :: 16;
 
-crypto_pwhash_argon2i_PASSWD_MIN :: 0;
+pwhash_argon2i_PASSWD_MIN :: 0;
 
-crypto_pwhash_argon2i_PASSWD_MAX :: 4294967295;
+pwhash_argon2i_PASSWD_MAX :: 4294967295;
 
-crypto_pwhash_argon2i_SALTBYTES :: 16;
+pwhash_argon2i_SALTBYTES :: 16;
 
-crypto_pwhash_argon2i_STRBYTES :: 128;
+pwhash_argon2i_STRBYTES :: 128;
 
-crypto_pwhash_argon2i_STRPREFIX :: "$argon2i$";
+pwhash_argon2i_STRPREFIX :: "$argon2i$";
 
-crypto_pwhash_argon2i_OPSLIMIT_MIN :: 3;
+pwhash_argon2i_OPSLIMIT_MIN :: 3;
 
-crypto_pwhash_argon2i_OPSLIMIT_MAX :: 4294967295;
+pwhash_argon2i_OPSLIMIT_MAX :: 4294967295;
 
-crypto_pwhash_argon2i_MEMLIMIT_MIN :: 8192;
+pwhash_argon2i_MEMLIMIT_MIN :: 8192;
 
-crypto_pwhash_argon2i_OPSLIMIT_INTERACTIVE :: 4;
+pwhash_argon2i_OPSLIMIT_INTERACTIVE :: 4;
 
-crypto_pwhash_argon2i_MEMLIMIT_INTERACTIVE :: 33554432;
+pwhash_argon2i_MEMLIMIT_INTERACTIVE :: 33554432;
 
-crypto_pwhash_argon2i_OPSLIMIT_MODERATE :: 6;
+pwhash_argon2i_OPSLIMIT_MODERATE :: 6;
 
-crypto_pwhash_argon2i_MEMLIMIT_MODERATE :: 134217728;
+pwhash_argon2i_MEMLIMIT_MODERATE :: 134217728;
 
-crypto_pwhash_argon2i_OPSLIMIT_SENSITIVE :: 8;
+pwhash_argon2i_OPSLIMIT_SENSITIVE :: 8;
 
-crypto_pwhash_argon2i_MEMLIMIT_SENSITIVE :: 536870912;
+pwhash_argon2i_MEMLIMIT_SENSITIVE :: 536870912;
 
-crypto_pwhash_argon2id_ALG_ARGON2ID13 :: 2;
+pwhash_argon2id_ALG_ARGON2ID13 :: 2;
 
-crypto_pwhash_argon2id_BYTES_MIN :: 16;
+pwhash_argon2id_BYTES_MIN :: 16;
 
-crypto_pwhash_argon2id_PASSWD_MIN :: 0;
+pwhash_argon2id_PASSWD_MIN :: 0;
 
-crypto_pwhash_argon2id_PASSWD_MAX :: 4294967295;
+pwhash_argon2id_PASSWD_MAX :: 4294967295;
 
-crypto_pwhash_argon2id_SALTBYTES :: 16;
+pwhash_argon2id_SALTBYTES :: 16;
 
-crypto_pwhash_argon2id_STRBYTES :: 128;
+pwhash_argon2id_STRBYTES :: 128;
 
-crypto_pwhash_argon2id_STRPREFIX :: "$argon2id$";
+pwhash_argon2id_STRPREFIX :: "$argon2id$";
 
-crypto_pwhash_argon2id_OPSLIMIT_MIN :: 1;
+pwhash_argon2id_OPSLIMIT_MIN :: 1;
 
-crypto_pwhash_argon2id_OPSLIMIT_MAX :: 4294967295;
+pwhash_argon2id_OPSLIMIT_MAX :: 4294967295;
 
-crypto_pwhash_argon2id_MEMLIMIT_MIN :: 8192;
+pwhash_argon2id_MEMLIMIT_MIN :: 8192;
 
-crypto_pwhash_argon2id_OPSLIMIT_INTERACTIVE :: 2;
+pwhash_argon2id_OPSLIMIT_INTERACTIVE :: 2;
 
-crypto_pwhash_argon2id_MEMLIMIT_INTERACTIVE :: 67108864;
+pwhash_argon2id_MEMLIMIT_INTERACTIVE :: 67108864;
 
-crypto_pwhash_argon2id_OPSLIMIT_MODERATE :: 3;
+pwhash_argon2id_OPSLIMIT_MODERATE :: 3;
 
-crypto_pwhash_argon2id_MEMLIMIT_MODERATE :: 268435456;
+pwhash_argon2id_MEMLIMIT_MODERATE :: 268435456;
 
-crypto_pwhash_argon2id_OPSLIMIT_SENSITIVE :: 4;
+pwhash_argon2id_OPSLIMIT_SENSITIVE :: 4;
 
-crypto_pwhash_argon2id_MEMLIMIT_SENSITIVE :: 1073741824;
+pwhash_argon2id_MEMLIMIT_SENSITIVE :: 1073741824;
 
-crypto_pwhash_ALG_ARGON2I13 :: crypto_pwhash_argon2i_ALG_ARGON2I13;
+pwhash_ALG_ARGON2I13 :: pwhash_argon2i_ALG_ARGON2I13;
 
-crypto_pwhash_ALG_ARGON2ID13 :: crypto_pwhash_argon2id_ALG_ARGON2ID13;
+pwhash_ALG_ARGON2ID13 :: pwhash_argon2id_ALG_ARGON2ID13;
 
-crypto_pwhash_ALG_DEFAULT :: crypto_pwhash_ALG_ARGON2ID13;
+pwhash_ALG_DEFAULT :: pwhash_ALG_ARGON2ID13;
 
-crypto_pwhash_BYTES_MIN :: crypto_pwhash_argon2id_BYTES_MIN;
+pwhash_BYTES_MIN :: pwhash_argon2id_BYTES_MIN;
 
-crypto_pwhash_PASSWD_MIN :: crypto_pwhash_argon2id_PASSWD_MIN;
+pwhash_PASSWD_MIN :: pwhash_argon2id_PASSWD_MIN;
 
-crypto_pwhash_PASSWD_MAX :: crypto_pwhash_argon2id_PASSWD_MAX;
+pwhash_PASSWD_MAX :: pwhash_argon2id_PASSWD_MAX;
 
-crypto_pwhash_SALTBYTES :: crypto_pwhash_argon2id_SALTBYTES;
+pwhash_SALTBYTES :: pwhash_argon2id_SALTBYTES;
 
-crypto_pwhash_STRBYTES :: crypto_pwhash_argon2id_STRBYTES;
+pwhash_STRBYTES :: pwhash_argon2id_STRBYTES;
 
-crypto_pwhash_STRPREFIX :: crypto_pwhash_argon2id_STRPREFIX;
+pwhash_STRPREFIX :: pwhash_argon2id_STRPREFIX;
 
-crypto_pwhash_OPSLIMIT_MIN :: crypto_pwhash_argon2id_OPSLIMIT_MIN;
+pwhash_OPSLIMIT_MIN :: pwhash_argon2id_OPSLIMIT_MIN;
 
-crypto_pwhash_OPSLIMIT_MAX :: crypto_pwhash_argon2id_OPSLIMIT_MAX;
+pwhash_OPSLIMIT_MAX :: pwhash_argon2id_OPSLIMIT_MAX;
 
-crypto_pwhash_MEMLIMIT_MIN :: crypto_pwhash_argon2id_MEMLIMIT_MIN;
+pwhash_MEMLIMIT_MIN :: pwhash_argon2id_MEMLIMIT_MIN;
 
-crypto_pwhash_OPSLIMIT_INTERACTIVE :: crypto_pwhash_argon2id_OPSLIMIT_INTERACTIVE;
+pwhash_OPSLIMIT_INTERACTIVE :: pwhash_argon2id_OPSLIMIT_INTERACTIVE;
 
-crypto_pwhash_MEMLIMIT_INTERACTIVE :: crypto_pwhash_argon2id_MEMLIMIT_INTERACTIVE;
+pwhash_MEMLIMIT_INTERACTIVE :: pwhash_argon2id_MEMLIMIT_INTERACTIVE;
 
-crypto_pwhash_OPSLIMIT_MODERATE :: crypto_pwhash_argon2id_OPSLIMIT_MODERATE;
+pwhash_OPSLIMIT_MODERATE :: pwhash_argon2id_OPSLIMIT_MODERATE;
 
-crypto_pwhash_MEMLIMIT_MODERATE :: crypto_pwhash_argon2id_MEMLIMIT_MODERATE;
+pwhash_MEMLIMIT_MODERATE :: pwhash_argon2id_MEMLIMIT_MODERATE;
 
-crypto_pwhash_OPSLIMIT_SENSITIVE :: crypto_pwhash_argon2id_OPSLIMIT_SENSITIVE;
+pwhash_OPSLIMIT_SENSITIVE :: pwhash_argon2id_OPSLIMIT_SENSITIVE;
 
-crypto_pwhash_MEMLIMIT_SENSITIVE :: crypto_pwhash_argon2id_MEMLIMIT_SENSITIVE;
+pwhash_MEMLIMIT_SENSITIVE :: pwhash_argon2id_MEMLIMIT_SENSITIVE;
 
-crypto_pwhash_PRIMITIVE :: "argon2id,argon2i";
+pwhash_PRIMITIVE :: "argon2id,argon2i";
 
-crypto_scalarmult_curve25519_BYTES :: 32;
+scalarmult_curve25519_BYTES :: 32;
 
-crypto_scalarmult_curve25519_SCALARBYTES :: 32;
+scalarmult_curve25519_SCALARBYTES :: 32;
 
-crypto_scalarmult_BYTES :: crypto_scalarmult_curve25519_BYTES;
+scalarmult_BYTES :: scalarmult_curve25519_BYTES;
 
-crypto_scalarmult_SCALARBYTES :: crypto_scalarmult_curve25519_SCALARBYTES;
+scalarmult_SCALARBYTES :: scalarmult_curve25519_SCALARBYTES;
 
-crypto_scalarmult_PRIMITIVE :: "curve25519";
+scalarmult_PRIMITIVE :: "curve25519";
 
-crypto_secretbox_xsalsa20poly1305_KEYBYTES :: 32;
+secretbox_xsalsa20poly1305_KEYBYTES :: 32;
 
-crypto_secretbox_xsalsa20poly1305_NONCEBYTES :: 24;
+secretbox_xsalsa20poly1305_NONCEBYTES :: 24;
 
-crypto_secretbox_xsalsa20poly1305_MACBYTES :: 16;
+secretbox_xsalsa20poly1305_MACBYTES :: 16;
 
-crypto_secretbox_xsalsa20poly1305_BOXZEROBYTES :: 16;
+secretbox_xsalsa20poly1305_BOXZEROBYTES :: 16;
 
-crypto_secretbox_xsalsa20poly1305_ZEROBYTES :: crypto_secretbox_xsalsa20poly1305_BOXZEROBYTES + crypto_secretbox_xsalsa20poly1305_MACBYTES;
+secretbox_xsalsa20poly1305_ZEROBYTES :: secretbox_xsalsa20poly1305_BOXZEROBYTES + secretbox_xsalsa20poly1305_MACBYTES;
 
-crypto_secretbox_KEYBYTES :: crypto_secretbox_xsalsa20poly1305_KEYBYTES;
+secretbox_KEYBYTES :: secretbox_xsalsa20poly1305_KEYBYTES;
 
-crypto_secretbox_NONCEBYTES :: crypto_secretbox_xsalsa20poly1305_NONCEBYTES;
+secretbox_NONCEBYTES :: secretbox_xsalsa20poly1305_NONCEBYTES;
 
-crypto_secretbox_MACBYTES :: crypto_secretbox_xsalsa20poly1305_MACBYTES;
+secretbox_MACBYTES :: secretbox_xsalsa20poly1305_MACBYTES;
 
-crypto_secretbox_PRIMITIVE :: "xsalsa20poly1305";
+secretbox_PRIMITIVE :: "xsalsa20poly1305";
 
-crypto_secretbox_ZEROBYTES :: crypto_secretbox_xsalsa20poly1305_ZEROBYTES;
+secretbox_ZEROBYTES :: secretbox_xsalsa20poly1305_ZEROBYTES;
 
-crypto_secretbox_BOXZEROBYTES :: crypto_secretbox_xsalsa20poly1305_BOXZEROBYTES;
+secretbox_BOXZEROBYTES :: secretbox_xsalsa20poly1305_BOXZEROBYTES;
 
-crypto_stream_chacha20_KEYBYTES :: 32;
+stream_chacha20_KEYBYTES :: 32;
 
-crypto_stream_chacha20_NONCEBYTES :: 8;
+stream_chacha20_NONCEBYTES :: 8;
 
-crypto_stream_chacha20_ietf_KEYBYTES :: 32;
+stream_chacha20_ietf_KEYBYTES :: 32;
 
-crypto_stream_chacha20_ietf_NONCEBYTES :: 12;
+stream_chacha20_ietf_NONCEBYTES :: 12;
 
-crypto_stream_chacha20_IETF_KEYBYTES :: crypto_stream_chacha20_ietf_KEYBYTES;
-crypto_stream_chacha20_IETF_NONCEBYTES :: crypto_stream_chacha20_ietf_NONCEBYTES;
+stream_chacha20_IETF_KEYBYTES :: stream_chacha20_ietf_KEYBYTES;
+stream_chacha20_IETF_NONCEBYTES :: stream_chacha20_ietf_NONCEBYTES;
 
-crypto_secretstream_xchacha20poly1305_ABYTES :: 1 + crypto_aead_xchacha20poly1305_ietf_ABYTES;
+secretstream_xchacha20poly1305_ABYTES :: 1 + aead_xchacha20poly1305_ietf_ABYTES;
 
-crypto_secretstream_xchacha20poly1305_HEADERBYTES :: crypto_aead_xchacha20poly1305_ietf_NPUBBYTES;
+secretstream_xchacha20poly1305_HEADERBYTES :: aead_xchacha20poly1305_ietf_NPUBBYTES;
 
-crypto_secretstream_xchacha20poly1305_KEYBYTES :: crypto_aead_xchacha20poly1305_ietf_KEYBYTES;
+secretstream_xchacha20poly1305_KEYBYTES :: aead_xchacha20poly1305_ietf_KEYBYTES;
 
-crypto_secretstream_xchacha20poly1305_TAG_MESSAGE :: 0x00;
+secretstream_xchacha20poly1305_TAG_MESSAGE :: 0x00;
 
-crypto_secretstream_xchacha20poly1305_TAG_PUSH :: 0x01;
+secretstream_xchacha20poly1305_TAG_PUSH :: 0x01;
 
-crypto_secretstream_xchacha20poly1305_TAG_REKEY :: 0x02;
+secretstream_xchacha20poly1305_TAG_REKEY :: 0x02;
 
-crypto_secretstream_xchacha20poly1305_TAG_FINAL :: crypto_secretstream_xchacha20poly1305_TAG_PUSH | crypto_secretstream_xchacha20poly1305_TAG_REKEY;
+secretstream_xchacha20poly1305_TAG_FINAL :: secretstream_xchacha20poly1305_TAG_PUSH | secretstream_xchacha20poly1305_TAG_REKEY;
 
-crypto_shorthash_siphash24_BYTES :: 8;
+shorthash_siphash24_BYTES :: 8;
 
-crypto_shorthash_siphash24_KEYBYTES :: 16;
+shorthash_siphash24_KEYBYTES :: 16;
 
-crypto_shorthash_siphashx24_BYTES :: 16;
+shorthash_siphashx24_BYTES :: 16;
 
-crypto_shorthash_siphashx24_KEYBYTES :: 16;
+shorthash_siphashx24_KEYBYTES :: 16;
 
-crypto_shorthash_BYTES :: crypto_shorthash_siphash24_BYTES;
+shorthash_BYTES :: shorthash_siphash24_BYTES;
 
-crypto_shorthash_KEYBYTES :: crypto_shorthash_siphash24_KEYBYTES;
+shorthash_KEYBYTES :: shorthash_siphash24_KEYBYTES;
 
-crypto_shorthash_PRIMITIVE :: "siphash24";
+shorthash_PRIMITIVE :: "siphash24";
 
-crypto_sign_ed25519_BYTES :: 64;
+sign_ed25519_BYTES :: 64;
 
-crypto_sign_ed25519_SEEDBYTES :: 32;
+sign_ed25519_SEEDBYTES :: 32;
 
-crypto_sign_ed25519_PUBLICKEYBYTES :: 32;
+sign_ed25519_PUBLICKEYBYTES :: 32;
 
-crypto_sign_ed25519_SECRETKEYBYTES :: 32 + 32;
+sign_ed25519_SECRETKEYBYTES :: 32 + 32;
 
-crypto_sign_BYTES :: crypto_sign_ed25519_BYTES;
+sign_BYTES :: sign_ed25519_BYTES;
 
-crypto_sign_SEEDBYTES :: crypto_sign_ed25519_SEEDBYTES;
+sign_SEEDBYTES :: sign_ed25519_SEEDBYTES;
 
-crypto_sign_PUBLICKEYBYTES :: crypto_sign_ed25519_PUBLICKEYBYTES;
+sign_PUBLICKEYBYTES :: sign_ed25519_PUBLICKEYBYTES;
 
-crypto_sign_SECRETKEYBYTES :: crypto_sign_ed25519_SECRETKEYBYTES;
+sign_SECRETKEYBYTES :: sign_ed25519_SECRETKEYBYTES;
 
-crypto_sign_PRIMITIVE :: "ed25519";
+sign_PRIMITIVE :: "ed25519";
 
-crypto_stream_KEYBYTES :: crypto_stream_xsalsa20_KEYBYTES;
+stream_KEYBYTES :: stream_xsalsa20_KEYBYTES;
 
-crypto_stream_NONCEBYTES :: crypto_stream_xsalsa20_NONCEBYTES;
+stream_NONCEBYTES :: stream_xsalsa20_NONCEBYTES;
 
-crypto_stream_PRIMITIVE :: "xsalsa20";
+stream_PRIMITIVE :: "xsalsa20";
 
-crypto_stream_salsa20_KEYBYTES :: 32;
+stream_salsa20_KEYBYTES :: 32;
 
-crypto_stream_salsa20_NONCEBYTES :: 8;
+stream_salsa20_NONCEBYTES :: 8;
 
-crypto_verify_16_BYTES :: 16;
+verify_16_BYTES :: 16;
 
-crypto_verify_32_BYTES :: 32;
+verify_32_BYTES :: 32;
 
-crypto_verify_64_BYTES :: 64;
+verify_64_BYTES :: 64;
 
 randombytes_SEEDBYTES :: 32;
 
@@ -469,87 +469,87 @@ sodium_base64_VARIANT_ORIGINAL_NO_PADDING :: 3;
 sodium_base64_VARIANT_URLSAFE :: 5;
 sodium_base64_VARIANT_URLSAFE_NO_PADDING :: 7;
 
-crypto_stream_xchacha20_KEYBYTES :: 32;
+stream_xchacha20_KEYBYTES :: 32;
 
-crypto_stream_xchacha20_NONCEBYTES :: 24;
+stream_xchacha20_NONCEBYTES :: 24;
 
-crypto_box_curve25519xchacha20poly1305_SEEDBYTES :: 32;
+box_curve25519xchacha20poly1305_SEEDBYTES :: 32;
 
-crypto_box_curve25519xchacha20poly1305_PUBLICKEYBYTES :: 32;
+box_curve25519xchacha20poly1305_PUBLICKEYBYTES :: 32;
 
-crypto_box_curve25519xchacha20poly1305_SECRETKEYBYTES :: 32;
+box_curve25519xchacha20poly1305_SECRETKEYBYTES :: 32;
 
-crypto_box_curve25519xchacha20poly1305_BEFORENMBYTES :: 32;
+box_curve25519xchacha20poly1305_BEFORENMBYTES :: 32;
 
-crypto_box_curve25519xchacha20poly1305_NONCEBYTES :: 24;
+box_curve25519xchacha20poly1305_NONCEBYTES :: 24;
 
-crypto_box_curve25519xchacha20poly1305_MACBYTES :: 16;
+box_curve25519xchacha20poly1305_MACBYTES :: 16;
 
-crypto_box_curve25519xchacha20poly1305_SEALBYTES :: crypto_box_curve25519xchacha20poly1305_PUBLICKEYBYTES + crypto_box_curve25519xchacha20poly1305_MACBYTES;
+box_curve25519xchacha20poly1305_SEALBYTES :: box_curve25519xchacha20poly1305_PUBLICKEYBYTES + box_curve25519xchacha20poly1305_MACBYTES;
 
-crypto_core_ed25519_BYTES :: 32;
+core_ed25519_BYTES :: 32;
 
-crypto_core_ed25519_UNIFORMBYTES :: 32;
+core_ed25519_UNIFORMBYTES :: 32;
 
-crypto_core_ed25519_HASHBYTES :: 64;
+core_ed25519_HASHBYTES :: 64;
 
-crypto_core_ed25519_SCALARBYTES :: 32;
+core_ed25519_SCALARBYTES :: 32;
 
-crypto_core_ed25519_NONREDUCEDSCALARBYTES :: 64;
+core_ed25519_NONREDUCEDSCALARBYTES :: 64;
 
-crypto_core_ristretto255_BYTES :: 32;
+core_ristretto255_BYTES :: 32;
 
-crypto_core_ristretto255_HASHBYTES :: 64;
+core_ristretto255_HASHBYTES :: 64;
 
-crypto_core_ristretto255_SCALARBYTES :: 32;
+core_ristretto255_SCALARBYTES :: 32;
 
-crypto_core_ristretto255_NONREDUCEDSCALARBYTES :: 64;
+core_ristretto255_NONREDUCEDSCALARBYTES :: 64;
 
-crypto_pwhash_scryptsalsa208sha256_BYTES_MIN :: 16;
+pwhash_scryptsalsa208sha256_BYTES_MIN :: 16;
 
-crypto_pwhash_scryptsalsa208sha256_PASSWD_MIN :: 0;
+pwhash_scryptsalsa208sha256_PASSWD_MIN :: 0;
 
-crypto_pwhash_scryptsalsa208sha256_SALTBYTES :: 32;
+pwhash_scryptsalsa208sha256_SALTBYTES :: 32;
 
-crypto_pwhash_scryptsalsa208sha256_STRBYTES :: 102;
+pwhash_scryptsalsa208sha256_STRBYTES :: 102;
 
-crypto_pwhash_scryptsalsa208sha256_STRPREFIX :: "$7$";
+pwhash_scryptsalsa208sha256_STRPREFIX :: "$7$";
 
-crypto_pwhash_scryptsalsa208sha256_OPSLIMIT_MIN :: 32768;
+pwhash_scryptsalsa208sha256_OPSLIMIT_MIN :: 32768;
 
-crypto_pwhash_scryptsalsa208sha256_OPSLIMIT_MAX :: 4294967295;
+pwhash_scryptsalsa208sha256_OPSLIMIT_MAX :: 4294967295;
 
-crypto_pwhash_scryptsalsa208sha256_MEMLIMIT_MIN :: 16777216;
+pwhash_scryptsalsa208sha256_MEMLIMIT_MIN :: 16777216;
 
-crypto_pwhash_scryptsalsa208sha256_OPSLIMIT_INTERACTIVE :: 524288;
+pwhash_scryptsalsa208sha256_OPSLIMIT_INTERACTIVE :: 524288;
 
-crypto_pwhash_scryptsalsa208sha256_MEMLIMIT_INTERACTIVE :: 16777216;
+pwhash_scryptsalsa208sha256_MEMLIMIT_INTERACTIVE :: 16777216;
 
-crypto_pwhash_scryptsalsa208sha256_OPSLIMIT_SENSITIVE :: 33554432;
+pwhash_scryptsalsa208sha256_OPSLIMIT_SENSITIVE :: 33554432;
 
-crypto_pwhash_scryptsalsa208sha256_MEMLIMIT_SENSITIVE :: 1073741824;
+pwhash_scryptsalsa208sha256_MEMLIMIT_SENSITIVE :: 1073741824;
 
-crypto_scalarmult_ed25519_BYTES :: 32;
+scalarmult_ed25519_BYTES :: 32;
 
-crypto_scalarmult_ed25519_SCALARBYTES :: 32;
+scalarmult_ed25519_SCALARBYTES :: 32;
 
-crypto_scalarmult_ristretto255_BYTES :: 32;
+scalarmult_ristretto255_BYTES :: 32;
 
-crypto_scalarmult_ristretto255_SCALARBYTES :: 32;
+scalarmult_ristretto255_SCALARBYTES :: 32;
 
-crypto_secretbox_xchacha20poly1305_KEYBYTES :: 32;
+secretbox_xchacha20poly1305_KEYBYTES :: 32;
 
-crypto_secretbox_xchacha20poly1305_NONCEBYTES :: 24;
+secretbox_xchacha20poly1305_NONCEBYTES :: 24;
 
-crypto_secretbox_xchacha20poly1305_MACBYTES :: 16;
+secretbox_xchacha20poly1305_MACBYTES :: 16;
 
-crypto_stream_salsa2012_KEYBYTES :: 32;
+stream_salsa2012_KEYBYTES :: 32;
 
-crypto_stream_salsa2012_NONCEBYTES :: 8;
+stream_salsa2012_NONCEBYTES :: 8;
 
-crypto_stream_salsa208_KEYBYTES :: 32;
+stream_salsa208_KEYBYTES :: 32;
 
-crypto_stream_salsa208_NONCEBYTES :: 8;
+stream_salsa208_NONCEBYTES :: 8;
 
 sodium_version_string :: () -> *u8 #foreign libsodium;
 
